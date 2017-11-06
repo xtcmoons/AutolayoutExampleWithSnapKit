@@ -21,6 +21,15 @@ class Case1ViewController: UIViewController {
     }
 
     @IBAction func addLabelContent(_ sender: UIStepper) {
+
+        switch sender.tag {
+        case 0:
+            label1.text = self.getLabelContentWithCount(count: Int(sender.value))
+        case 1:
+            label2.text = self.getLabelContentWithCount(count: Int(sender.value))
+        default:
+            print("default")
+        }
     }
 
     func initSubViews() {
@@ -43,8 +52,14 @@ class Case1ViewController: UIViewController {
         label2.snp.makeConstraints { (make) in
             make.top.equalTo(containerView1.snp.top).offset(5)
             make.left.equalTo(label1.snp.right).offset(2)
+            make.right.lessThanOrEqualTo(containerView1)
             make.height.equalTo(40)
         }
+
+        label1.setContentHuggingPriority(.required, for: .horizontal)
+        label1.setContentCompressionResistancePriority(.required, for: .horizontal)
+        label2.setContentHuggingPriority(.required, for: .horizontal)
+        label2.setContentCompressionResistancePriority(.required, for: .horizontal)
     }
 
     func getLabelContentWithCount(count: Int) -> String {
