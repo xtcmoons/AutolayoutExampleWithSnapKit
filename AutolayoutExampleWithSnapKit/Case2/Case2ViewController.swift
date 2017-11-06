@@ -43,12 +43,12 @@ class Case2ViewController: UIViewController {
             containerView.addSubview(imageView)
         }
 
-        let imageViewSize = CGSize(width: imageSize, height: imageSize)
-
-        var lastView: UIView?
-        var widthConstraint: Constraint?
-        for item in imageViews.enumerated() {
-        }
+//        let imageViewSize = CGSize(width: imageSize, height: imageSize)
+//
+//        var lastView: UIView?
+//        var widthConstraint: Constraint?
+//        for item in imageViews.enumerated() {
+//        }
 
     }
 
