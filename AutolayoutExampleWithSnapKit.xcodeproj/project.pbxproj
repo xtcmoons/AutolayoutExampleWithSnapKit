@@ -12,6 +12,13 @@
 		053CD2C31FB06368006939EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 053CD2C11FB06368006939EC /* Main.storyboard */; };
 		053CD2C51FB06368006939EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 053CD2C41FB06368006939EC /* Assets.xcassets */; };
 		053CD2C81FB06368006939EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 053CD2C61FB06368006939EC /* LaunchScreen.storyboard */; };
+		05618F241FB19C3B00F49066 /* Case5ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05618F231FB19C3B00F49066 /* Case5ViewController.swift */; };
+		05618F271FB1A03F00F49066 /* Case6ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05618F261FB1A03F00F49066 /* Case6ViewController.swift */; };
+		05618F291FB1A0C400F49066 /* Case6ItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05618F281FB1A0C400F49066 /* Case6ItemView.swift */; };
+		05618F2C1FB1AA1D00F49066 /* Case7ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05618F2B1FB1AA1D00F49066 /* Case7ViewController.swift */; };
+		05618F2F1FB1B21600F49066 /* Case8ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05618F2E1FB1B21600F49066 /* Case8ViewController.swift */; };
+		05618F381FB1B2D000F49066 /* Case8Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05618F371FB1B2D000F49066 /* Case8Cell.swift */; };
+		05618F3A1FB1B2F100F49066 /* Case8DataEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05618F391FB1B2F100F49066 /* Case8DataEntity.swift */; };
 		058BF6471FB064EF00D84DB4 /* Case1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058BF6461FB064EF00D84DB4 /* Case1ViewController.swift */; };
 		058BF64C1FB07CEE00D84DB4 /* Case2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058BF64B1FB07CEE00D84DB4 /* Case2ViewController.swift */; };
 		058BF64F1FB08A2F00D84DB4 /* Case3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058BF64E1FB08A2F00D84DB4 /* Case3ViewController.swift */; };
@@ -28,6 +35,13 @@
 		053CD2C41FB06368006939EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		053CD2C71FB06368006939EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		053CD2C91FB06368006939EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		05618F231FB19C3B00F49066 /* Case5ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Case5ViewController.swift; sourceTree = "<group>"; };
+		05618F261FB1A03F00F49066 /* Case6ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Case6ViewController.swift; sourceTree = "<group>"; };
+		05618F281FB1A0C400F49066 /* Case6ItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Case6ItemView.swift; sourceTree = "<group>"; };
+		05618F2B1FB1AA1D00F49066 /* Case7ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Case7ViewController.swift; sourceTree = "<group>"; };
+		05618F2E1FB1B21600F49066 /* Case8ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Case8ViewController.swift; sourceTree = "<group>"; };
+		05618F371FB1B2D000F49066 /* Case8Cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Case8Cell.swift; sourceTree = "<group>"; };
+		05618F391FB1B2F100F49066 /* Case8DataEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Case8DataEntity.swift; sourceTree = "<group>"; };
 		058BF6461FB064EF00D84DB4 /* Case1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Case1ViewController.swift; sourceTree = "<group>"; };
 		058BF64B1FB07CEE00D84DB4 /* Case2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Case2ViewController.swift; sourceTree = "<group>"; };
 		058BF64E1FB08A2F00D84DB4 /* Case3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Case3ViewController.swift; sourceTree = "<group>"; };
@@ -77,12 +91,107 @@
 				058BF64A1FB07CD000D84DB4 /* Case2 */,
 				058BF64D1FB08A0C00D84DB4 /* Case3 */,
 				058BF6501FB0903A00D84DB4 /* Case4 */,
+				05618F221FB19C1E00F49066 /* Case5 */,
+				05618F251FB1A02400F49066 /* Case6 */,
+				05618F2A1FB1AA0C00F49066 /* Case7 */,
+				05618F2D1FB1B20400F49066 /* Case8 */,
+				05618F301FB1B26900F49066 /* Case9 */,
+				05618F341FB1B2AE00F49066 /* Case10 */,
+				05618F351FB1B2AE00F49066 /* Case11 */,
+				05618F361FB1B2AE00F49066 /* Case12 */,
+				05618F321FB1B2AD00F49066 /* Case13 */,
+				05618F311FB1B2AD00F49066 /* Case14 */,
+				05618F331FB1B2AD00F49066 /* Case15 */,
 				053CD2C11FB06368006939EC /* Main.storyboard */,
 				053CD2C41FB06368006939EC /* Assets.xcassets */,
 				053CD2C61FB06368006939EC /* LaunchScreen.storyboard */,
 				053CD2C91FB06368006939EC /* Info.plist */,
 			);
 			path = AutolayoutExampleWithSnapKit;
+			sourceTree = "<group>";
+		};
+		05618F221FB19C1E00F49066 /* Case5 */ = {
+			isa = PBXGroup;
+			children = (
+				05618F231FB19C3B00F49066 /* Case5ViewController.swift */,
+			);
+			path = Case5;
+			sourceTree = "<group>";
+		};
+		05618F251FB1A02400F49066 /* Case6 */ = {
+			isa = PBXGroup;
+			children = (
+				05618F261FB1A03F00F49066 /* Case6ViewController.swift */,
+				05618F281FB1A0C400F49066 /* Case6ItemView.swift */,
+			);
+			path = Case6;
+			sourceTree = "<group>";
+		};
+		05618F2A1FB1AA0C00F49066 /* Case7 */ = {
+			isa = PBXGroup;
+			children = (
+				05618F2B1FB1AA1D00F49066 /* Case7ViewController.swift */,
+			);
+			path = Case7;
+			sourceTree = "<group>";
+		};
+		05618F2D1FB1B20400F49066 /* Case8 */ = {
+			isa = PBXGroup;
+			children = (
+				05618F2E1FB1B21600F49066 /* Case8ViewController.swift */,
+				05618F371FB1B2D000F49066 /* Case8Cell.swift */,
+				05618F391FB1B2F100F49066 /* Case8DataEntity.swift */,
+			);
+			path = Case8;
+			sourceTree = "<group>";
+		};
+		05618F301FB1B26900F49066 /* Case9 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Case9;
+			sourceTree = "<group>";
+		};
+		05618F311FB1B2AD00F49066 /* Case14 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Case14;
+			sourceTree = "<group>";
+		};
+		05618F321FB1B2AD00F49066 /* Case13 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Case13;
+			sourceTree = "<group>";
+		};
+		05618F331FB1B2AD00F49066 /* Case15 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Case15;
+			sourceTree = "<group>";
+		};
+		05618F341FB1B2AE00F49066 /* Case10 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Case10;
+			sourceTree = "<group>";
+		};
+		05618F351FB1B2AE00F49066 /* Case11 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Case11;
+			sourceTree = "<group>";
+		};
+		05618F361FB1B2AE00F49066 /* Case12 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Case12;
 			sourceTree = "<group>";
 		};
 		058BF6451FB064BD00D84DB4 /* Case1 */ = {
@@ -267,8 +376,15 @@
 				053CD2C01FB06368006939EC /* ViewController.swift in Sources */,
 				058BF64C1FB07CEE00D84DB4 /* Case2ViewController.swift in Sources */,
 				058BF6471FB064EF00D84DB4 /* Case1ViewController.swift in Sources */,
+				05618F2C1FB1AA1D00F49066 /* Case7ViewController.swift in Sources */,
 				058BF64F1FB08A2F00D84DB4 /* Case3ViewController.swift in Sources */,
+				05618F241FB19C3B00F49066 /* Case5ViewController.swift in Sources */,
 				053CD2BE1FB06368006939EC /* AppDelegate.swift in Sources */,
+				05618F3A1FB1B2F100F49066 /* Case8DataEntity.swift in Sources */,
+				05618F2F1FB1B21600F49066 /* Case8ViewController.swift in Sources */,
+				05618F381FB1B2D000F49066 /* Case8Cell.swift in Sources */,
+				05618F291FB1A0C400F49066 /* Case6ItemView.swift in Sources */,
+				05618F271FB1A03F00F49066 /* Case6ViewController.swift in Sources */,
 				058BF6541FB091B100D84DB4 /* Case4TableViewCell.swift in Sources */,
 				058BF6521FB0904700D84DB4 /* Case4ViewController.swift in Sources */,
 			);

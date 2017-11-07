@@ -18,6 +18,8 @@ class Case4ViewController: UIViewController, UITableViewDelegate, UITableViewDat
 
         self.tableView.delegate = self
         self.tableView.dataSource = self
+        self.tableView.rowHeight = UITableViewAutomaticDimension
+        self.tableView.estimatedRowHeight = 100
         self.tableView.register(Case4TableViewCell.self, forCellReuseIdentifier: "Cell")
         self.view.addSubview(tableView)
 
